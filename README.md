@@ -1,4 +1,4 @@
-# Hibernate MySQL Demo
+# Hibernate maven setup
 
 This repository demonstrates the setup of the **Hibernate framework** in Java and showcases how Hibernate communicates with a **MySQL database** in a **Maven-based project**.
 
@@ -21,16 +21,19 @@ Make sure you have the following installed:
    git clone https://github.com/your-username/hibernate-mysql-demo.git
 2. Import the project as a Maven project in your IDE.
 3. Configure your hibernate.cfg.xml with your database details:
+   ```bash
    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/yourdb</property>
    <property name="hibernate.connection.username">root</property>
    <property name="hibernate.connection.password">yourpassword</property>
-4. Create the employee table in MySQL:
+5. Create the employee table in MySQL:
+   ```bash
     CREATE TABLE employee (
        id INT PRIMARY KEY AUTO_INCREMENT,
        name VARCHAR(100)
    );
-5. Run the Tester class to test the configuration.
+7. Run the Tester class to test the configuration.
  📂 Project Structure
+```bash
  src/main/java
  └── com/hibernate/test
       ├── Employee.java
@@ -40,12 +43,14 @@ src/main/resources
  ├── employee.hbm.xml
  └── hibernate.cfg.xml
 
+```
  📖 Learning Objectives
 - Understand how to configure Hibernate in a Maven project.
 - Learn entity-to-table mapping using XML.
 - Explore how Hibernate interacts with MySQL.
 
   🔗 Useful Links
+  ```
   https://mvnrepository.com/
   [Hibernate Documentation](https://hibernate.org/orm/documentation/7.1/)
   [MySQL Documentation](https://dev.mysql.com/doc/)

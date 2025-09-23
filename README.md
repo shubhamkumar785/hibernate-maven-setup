@@ -48,13 +48,11 @@ src/main/resources
 - Understand how to configure Hibernate in a Maven project.
 - Learn entity-to-table mapping using XML.
 - Explore how Hibernate interacts with MySQL.
+## 🔗 Useful Links
+- [Maven Repository](https://mvnrepository.com/)  
+- [Hibernate Documentation](https://hibernate.org/orm/documentation/7.1/)  
+- [MySQL Documentation](https://dev.mysql.com/doc/)  
 
-  🔗 Useful Links
-  https://mvnrepository.com/
-  [Hibernate Documentation](https://hibernate.org/orm/documentation/7.1/)
-  [MySQL Documentation](https://dev.mysql.com/doc/)
-
-  
 
 
 

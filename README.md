@@ -32,8 +32,8 @@ Make sure you have the following installed:
        name VARCHAR(100)
    );
 7. Run the Tester class to test the configuration.
- 📂 Project Structure
-```bash
+ ```bash
+##  📂 Project Structure
  src/main/java
  └── com/hibernate/test
       ├── Employee.java
@@ -54,6 +54,7 @@ src/main/resources
   https://mvnrepository.com/
   [Hibernate Documentation](https://hibernate.org/orm/documentation/7.1/)
   [MySQL Documentation](https://dev.mysql.com/doc/)
+  ```
 
   
 

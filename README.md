@@ -50,11 +50,9 @@ src/main/resources
 - Explore how Hibernate interacts with MySQL.
 
   🔗 Useful Links
-  ```
   https://mvnrepository.com/
   [Hibernate Documentation](https://hibernate.org/orm/documentation/7.1/)
   [MySQL Documentation](https://dev.mysql.com/doc/)
-  ```
 
   
 

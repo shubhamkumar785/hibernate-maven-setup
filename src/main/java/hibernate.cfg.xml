@@ -5,7 +5,7 @@
 	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 	<hibernate-configuration>
 	<session-factory>
-	<property name="hibernate.connection.driver_class">com.mysql.j.jdbc.Driver</property>
+	<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate1</property>
 	<property name="hibernate.connection.username">root</property>
 	<property name="hibernate.connection.password">shubham</property>
@@ -18,3 +18,4 @@
 	
 
 	</hibernate-configuration>
+

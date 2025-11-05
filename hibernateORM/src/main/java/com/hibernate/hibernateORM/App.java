@@ -16,10 +16,7 @@ public class App
         SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
         
         // Creating Student
-        Student st = new Student();
-        st.setId(101);
-        st.setName("Shubham");
-        st.setCity("Greater Noida");
+        Student st = new Student(101, "Shubham", "Greater Noida");
         System.out.println(st);
         
         Session session = factory.openSession();
@@ -28,8 +25,11 @@ public class App
         txt.commit();
 
         session.close();
+
+		System.out.println("Data saved successfully!");
     }
 
 	
 }
+
 

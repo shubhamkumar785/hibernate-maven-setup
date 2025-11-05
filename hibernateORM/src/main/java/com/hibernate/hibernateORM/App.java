@@ -22,7 +22,7 @@ public class App
         st.setCity("Greater Noida");
         System.out.println(st);
         
-        Session session = factory.getCurrentSession();
+        Session session = factory.openSession();
         Transaction txt = session.beginTransaction();
         session.save(st);
         txt.commit();
@@ -32,3 +32,4 @@ public class App
 
 	
 }
+
